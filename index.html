@@ -1,0 +1,61 @@
+<!DOCTYPE>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title></title>
+</head>
+<body>
+
+	<!---->
+	<header>
+		<h1>Тренировки дома</h1>
+		<h5>По системе видеоблогера - <a href="https://www.youtube.com/@schastlivenko">SEVA<a></h5>
+	</header>
+
+	<br>
+<!--
+	Для женщин: (10 х вес в кг) + (6,25 х рост в см) – (5 х возраст в г) – 161; Для мужчин: (10 х вес в кг) + (6,25 х рост в см) – (5 х возраст в г) + 5.
+-->
+	<!---->
+	<main>
+		<!---->
+		<div class="workout-block">
+			<h3>Тренировки (по дням):</h3>
+			<a href="day1.html">Первый день</a>
+			<a href="day2.html">Второй день</a>
+			<a href="day3.html">Третий день</a>
+		</div>
+		<br>
+		<!---->
+		<div class="nutrition-block">
+			<h3>Питание</h3>
+			<a href="breakfasts.html">Завтраки</a>
+			<a href="Lunches.html">Обеды</a>
+			<a href="Dinners.html">Ужины</a>
+		</div>
+		<!---->
+		<div class="calculator-block">
+			<h3>Калькулятор каллорий</h3>
+			<!---->
+			<div class="input-gender-block">
+    			<input id="men" type="radio" name="gender">
+    			<label for="men">Мужчина</label>
+    			<input id="women" type="radio" name="gender">
+    			<label for="women">Женщина</label>
+  			</div>
+  			<div class="input-weight-height-age-block">
+  				<input type="text" name="ves" placeholder="Вес в килограммах">
+  				<br>
+  				<input type="text" name="height" placeholder="Рост в сантиметрах">
+  				<br>
+  				<input type="text" name="age" placeholder="Возраст в годах">
+  			</div>
+  			<span class="result-block">
+  				<p class="result-text">Введите все данные</p>
+  			</span>
+		</div>
+	</main>
+</body>
+</html>
